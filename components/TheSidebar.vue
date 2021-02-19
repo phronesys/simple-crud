@@ -58,7 +58,7 @@
           ></b-button>
           <b-button
             pill
-            to="/details"
+            to="/contact/id/details"
             variant="primary"
             class="px-5"
             @click="hide"

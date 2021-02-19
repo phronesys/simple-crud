@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar type="dark" variant="dark" sticky toggleable="lg">
-      <b-navbar-brand>My Contacts</b-navbar-brand>
+      <b-navbar-brand to="/">My Contacts</b-navbar-brand>
       <b-navbar-nav class="ml-lg-5">
         <b-nav-item>
           <the-sidebar></the-sidebar>
