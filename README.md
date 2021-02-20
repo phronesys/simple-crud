@@ -1,4 +1,4 @@
 # simple-crud
 
-![demo image](./Screenshot from 2021-02-20 00-35-27.png)
+![demo image](./Screenshot%20from%202021-02-20 00-35-27.png)
 
