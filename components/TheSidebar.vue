@@ -1,14 +1,14 @@
 <template>
   <div>
-    <b-button pill v-b-toggle.sidebar-1 variant="primary"
+    <b-button v-b-toggle.sidebar-1 variant="primary py-2"
       >Upcoming Events</b-button
     >
     <b-sidebar
       id="sidebar-1"
       title="Next meeting"
       shadow
-      bg-variant="dark"
-      text-variant="light"
+      bg-variant="light"
+      text-variant="dark"
     >
       <template #default="{ hide }">
         <div class="p-3">
