@@ -1,5 +1,7 @@
 <template>
-  <div>uwu</div>
+  <div>
+    <new-contact></new-contact>    
+  </div>
 </template>
 
 <script>

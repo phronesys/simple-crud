@@ -1,7 +1,5 @@
 <template>
-  <div>
-    calendar
-  </div>
+  <new-contact></new-contact>
 </template>
 
 <script>

@@ -8,7 +8,7 @@
       class="header header-fix"
     >
       <b-navbar-brand to="/">
-        <h1 class="nav-header">Kontakt</h1>
+        <h1 class="nav-header">Kont@kt</h1>
       </b-navbar-brand>
       <b-navbar-nav class="ml-lg-5 pos-fix">
         <b-nav-item>
@@ -20,15 +20,18 @@
         class="btn"
       ></b-navbar-toggle>
       <b-collapse id="nav-collapse" is-nav right >
-        <b-navbar-nav class="ml-lg-5">
-          <b-nav-item class="pr-3 nav-item-color" to="/contacts"
-            >Contacts</b-nav-item
-          >
+        <b-navbar-nav class="ml-lg-5" >
           <b-nav-item class="pr-3 nav-item-color" to="/add-contact"
             >Add New Contact</b-nav-item
           >
-          <b-nav-item class="nav-item-color" to="/calendar"
-            >Calendar</b-nav-item
+          <b-nav-item class="pr-3 nav-item-color" to="/contacts"
+            >Contact List</b-nav-item
+          >
+          <b-nav-item class="pr-3 nav-item-color" to="/new-meeting"
+            >New Meeting</b-nav-item
+          >
+          <b-nav-item class="nav-item-color" to="/meetings"
+            >My meetings</b-nav-item
           >
         </b-navbar-nav>
         <b-navbar-nav class="ml-auto">

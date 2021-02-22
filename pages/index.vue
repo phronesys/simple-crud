@@ -25,14 +25,13 @@
       </h3>
       <div class="row text-center card-box">
         <div class="col-sm">
-          <div class="card card__feature ">
+          <div class="card card__feature">
             <div class="card-body bg-img-2 text-light">
               <h3 class="card-title">Free!</h3>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              
             </div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Dapibus ac facilisis in</li>
@@ -52,7 +51,6 @@
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              
             </div>
             <ul class="list-group list-group-flush">
               <li class="list-group-item">Dapibus ac facilisis in</li>
@@ -66,7 +64,16 @@
         </div>
       </div>
     </div>
-    
+    <div class="container">
+      <div class="bg-primary p-1 brightness">
+        <b-embed
+          type="iframe"
+          aspect="16by9"
+          src="https://youtube.com/embed/dQw4w9WgXcQ"
+          allowfullscreen
+        ></b-embed>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -75,10 +82,18 @@ export default {};
 </script>
 
 <style lang="scss">
+.brightness{
+  box-shadow: 1rem 1rem 2rem black;
+  border-radius: 5px;
+  filter: brightness(0);
+  transition: all 1s ease-in;
+  &:hover {
+    filter: brightness(1);
+  }
+}
 .card-box {
   max-width: 80%;
   margin: 8rem auto;
-  
 }
 
 .card__feature {
@@ -91,10 +106,10 @@ export default {};
     transform: translateY(-1rem);
     box-shadow: 0rem 1rem 4rem #007bffbd;
   }
-  &:hover .bg-img-2{
+  &:hover .bg-img-2 {
     opacity: 1;
   }
-  &:hover .bg-img-3{
+  &:hover .bg-img-3 {
     opacity: 1;
   }
 }
@@ -130,22 +145,20 @@ export default {};
   &-2 {
     background-image: url("../assets/to-work.jpeg");
     background-position: center;
-    opacity: .3;
+    opacity: 0.3;
     background-size: cover;
     transition: 1s ease;
-    
   }
   &-3 {
     background-image: url("../assets/backendguys.jpg");
     background-position: center;
-    opacity: .3;
+    opacity: 0.3;
     background-size: cover;
     transition: 1s ease;
-    
   }
 }
 .header {
-  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.4);
+  box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.4);
 }
 
 .custom-p-20 {
