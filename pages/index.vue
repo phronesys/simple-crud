@@ -64,7 +64,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <!-- <div class="container">
       <div class="bg-primary p-1 brightness">
         <b-embed
           type="iframe"
@@ -73,7 +73,7 @@
           allowfullscreen
         ></b-embed>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -97,6 +97,7 @@ export default {};
 }
 
 .card__feature {
+  max-width: 35rem;
   border-radius: 10px;
   height: 25rem;
   box-shadow: 0rem 1rem 1rem #007bffbd;
